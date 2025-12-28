@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <h3>Maintenance Due For Below Vehicles</h3>
+    <table border="1" cellpadding="8" cellspacing="0" width="60%">
+        <thead>
+            <tr>
+                <th>Vehicle Reg No</th>
+                <th>Distance Travelled (KM)</th>
+            </tr>
+        </thead>
+        <tbody>
+            {{#each maintenanceData}}
+            <tr>
+                <td>{{regNum}}</td>
+                <td>{{distanceTravelled}}</td>
+            </tr>
+            {{/each}}
+        </tbody>
+    </table>
+
+    <p>Please schedule maintenance at the earliest</p>
+
+    <br />
+    Thanks,<br />
+    FMVTS-Admin
+</body>
+
+</html>
