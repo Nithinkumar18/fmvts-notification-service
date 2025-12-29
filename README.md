@@ -159,7 +159,7 @@ Access to insights is restricted to **Admin role only**.
 
     Start Application
 
-     npm start
+      npm start
 
 
 
